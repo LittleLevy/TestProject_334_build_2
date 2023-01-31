@@ -1,2 +1,33 @@
 Name: Alarms
+Id: g=37e03a487dad94438d5a123156e9b71f
 Type: FolderType
+Children:
+- Name: DigitalAlarm1
+  Id: g=ad176b700e68fb8a973a537294e205f4
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=14b22d83a1953e9a4dec13b51f3d46a1
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Id: g=117ed31de283110efb9fadc1a9c77160
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: LastEvent
+    Id: g=f7786b8b634310c4d6d95864ae7115de
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=20;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=20;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=20;i=83
+    Direction: Forward
